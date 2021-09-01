@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do Lists</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <!-- fontawsome css1 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- materialize css1 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css" integrity="sha512-17AHGe9uFHHt+QaRYieK7bTdMMHBMi8PeWG99Mf/xEcfBLDCn0Gze8Xcx1KoSZxDnv+KnCC+os/vuQ7jrF/nkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="main" class="card">
+                        <div class="card-content">
+                            <span class="card-title">Tasks List</span>
+                            <div class="row">
+                                <form action="" method="" id="task-form">
+                                    <div class="input-field col-12">
+                                        <label for="task">New Tasks</label>
+                                        <input type="text" name="task" id="task" class="" />
+                                    </div>
+                                    <input type="submit" class="btn" value="Add Task"/>
+                                </form>
+                            </div>
+                            <div class="card-action">
+                                <h5>All Tasks</h5>
+                                <div class="input-field col-12">
+                                    <label for="filter">Filter Tasks</label>
+                                    <input type="text" name="fiter" id="filter" class="" />
+                                </div>
+                                <ul class="collection">
+                                </ul>
+                                <a href="#" class="btn clear-tasks">Clear Tasks</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- jquery -->
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <!-- materializ js 1 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js" integrity="sha512-E9vR5BfN3bwSc45BWl95328hvOcBYjMzKAKgdNM59yQXpTC4glztZyVoFJRp5qPc5A95zUZ8D5N7kEwUtJ9f6w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/app.js" type="text/javascript"></script>
+    </body>
+</html>

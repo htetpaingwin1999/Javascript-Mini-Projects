@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    background: url('./../assets/japan.jpg');
+    background-repeat: no-repeat;
+
+    background-position:center center;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0;
+}
+
+.background{
+    background: url('./../assets/japan.jpg');
+    background-repeat: no-repeat;
+
+    background-position:center center;
+    background-size: cover;
+
+    position: absolute;
+    top:0;
+    left:0;
+
+    z-index: -1;
+}
+
+div a{
+    background: #f54ea2;
+    color: white;
+    padding: 10px;
+
+    text-decoration: none;
+
+    position: absolute;
+    top:30px;
+    right: 30px;
+    margin-right: 10px;
+
+    font-size: 16px;
+}
+
+
+a{
+    background: #f54ea2;
+    color: white;
+    padding: 10px;
+
+    text-decoration: none;
+
+    font-size: 25px;
+}
+
+
+.confirmation{
+    background: #fff;
+    padding: 20px 20px;
+
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+
+    display: block;
+
+    position: absolute;
+
+    top:40%;
+    left: 50%;
+
+    transform: translateX(-50%);
+    /* transform: translateY(-50%); */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    display: none;
+}
+
+.confirmation div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.confirmation div button{
+    background: #f54ea2;
+    color: #fff;
+    
+    font-size: 18px;
+
+    padding:5px 10px;
+    border: 0;
+    border-radius: 5px;
+
+    margin:10px 5px;
+}
+
+.confirmation div button:focus{
+    outline: 0;
+}
+
+.confirmation div button:active{
+    transform: scale(0.98);
+}
+
+.show{
+    display: block;
+}

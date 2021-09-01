@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 1 For JSL 3</title>
+    <link href="./css/scorestyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="background" class="background"></div>
+    <div class="buttoncontainer">
+        <a href="./index.html" class="historybtn">
+            Back To Home
+        </a>
+    </div>
+
+    <div class="quizcontainer">
+        <div class="questiondisplay">
+            <div class="questionpart">
+                <p class="header">Ana to no na ma ea wa nan deska?</p>
+            </div>
+            <div class="answerpart">
+                <input type="radio" value="1" name="ans" id="r0" /><span class="ans1"> Ans1</span><br/><br/>
+                <input type="radio" value="2" name="ans" id="r1" /><span class="ans2"> Ans2</span><br/><br/>
+                <input type="radio" value="3" name="ans" id="r2" /><span class="ans3"> Ans3</span><br/><br/>
+                <input type="radio" value="4" name="ans" id="r3" /><span class="ans4"> Ans4</span> 
+                <br/>
+                <p id="y_answer">Your answer</p>
+                <p id="score"> 1/1</p>
+                <button class="nextbtn">Next</button>
+                <p id="total">Total 3/5</p>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <script src="./js/score.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    margin: 0;
+    overflow: hidden;
+}
+
+.background{
+    background-image: url('../img/myhotel.jpg');
+    background-repeat: no-repeat;
+                        /*left top*/
+    background-position:center center;
+    background-size: cover;
+
+    position: absolute;
+    top:-20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+
+    z-index: -1;
+
+    filter: blur(20px);
+}
+
+.container{
+    background:white;
+
+    padding:20px 30px;
+
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container::before{
+    content: '';
+    width: 150px;
+    height: 30px;
+
+    background:darkblue;
+    position: absolute;
+
+    top:10px;
+    right: -50px;
+
+    transform: rotate(45deg);
+}
+
+.form-group{
+    padding: 20px 0;
+    position: relative;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form-control{
+    width: 100%;
+    padding: 3px 4px;
+}
+.fas{
+    position: absolute;
+    top:3.5rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.btn{
+    width: 100%;
+    background:black;
+    color: white;
+
+    padding: 5px 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.btn:focus{
+    outline: 0;
+}

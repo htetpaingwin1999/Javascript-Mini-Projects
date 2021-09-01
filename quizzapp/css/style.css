@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(
+    320deg,
+    white 20%,
+    skyblue 20%
+    );
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    overflow: hidden;
+}
+
+.quiz-container{
+    width:600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(100,100,100,0.3);
+
+    overflow: hidden;
+
+}
+
+.quiz-container .quiz-header{
+    padding:4rem;
+}
+
+h2{
+    text-align: center;
+    margin:0;
+    padding: 1rem;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor:pointer;
+}
+
+button{
+    background-color: #4287f5;
+    width:100%;
+    padding: 1.3rem;
+    font-size: 1.1rem;
+    color:#fff;
+    border:none;
+    font-family: inherit;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #f2660f;
+}
+button:focus{
+    outline:0;
+    background-color: #ab210c;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
